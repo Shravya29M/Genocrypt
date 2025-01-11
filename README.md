@@ -21,20 +21,6 @@ This repository contains the code and data for the research paper **"GenoCryptNe
 - Python 3.8 or later
 - Required libraries: `numpy`, `pandas`, `opencv-python`, `matplotlib`
 
-### Steps to Run
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/yourusername/genocryptnet.git
-   cd genocryptnet
-   ```
-2. Install the required libraries:
-   ```bash
-   pip install -r requirements.txt
-   ```
-3. Run the Jupyter notebook (`code.ipynb`) for step-by-step execution or use `Evaluation.py` for performance testing:
-   ```bash
-   python Evaluation.py
-   ```
 
 ### Data
 The **`ASCII_2.csv`** file contains the DNA codon mappings necessary for encoding and decoding operations.
@@ -43,13 +29,3 @@ The **`ASCII_2.csv`** file contains the DNA codon mappings necessary for encodin
 - **Metrics Evaluated**: MSE, PSNR, SSIM, payload capacity.
 - The GenoCryptNet algorithm exhibits minimal perceptual differences in images post-embedding and ensures high fidelity for hidden data.
 
-## Citation
-If you use this work, please cite our research paper:
-```
-@article{genocryptnet2024,
-  author    = {Harsh Panchal, Shravya Munugala, Suhani Goel, Padmanaban R},
-  title     = {GenoCryptNet: The Future of Secure Communication through DNA},
-  journal   = {IEEE Conference Proceedings},
-  year      = {2024},
-}
-```
